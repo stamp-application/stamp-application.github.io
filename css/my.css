@@ -2,6 +2,7 @@ body {
     font-family: 'Arvo', serif;
     line-height: 200%;
     font-size: large;
+    background: #af1626;
 }
 
 /* obraz ma wysokość: 150px */
@@ -29,13 +30,20 @@ a.navbar-brand {
     color: white;
 }
 
-.stripeWitMargin {
+.stripeWithMargin {
     margin-top: 100px;
 }
 
 .stripeDownload {
     margin-top: 200px;
     padding-top: 400px;
+    padding-bottom: 300px;
+}
+
+.stripeDocumentation {
+    margin-top: 200px;
+    padding-top: 400px;
+    padding-bottom: 300px;
 }
 
 .stripeNormal {
@@ -75,6 +83,30 @@ a.navbar-brand {
     border-color: white;
 }
 .download-button:active {
+    color: white;
+    background: #777;
+    border-color: white;
+}
+.documentation-button {
+    color: #af1626;
+    background: white;
+    border-color: #af1626;
+    font-size: 200%;
+    padding: 10px 30px;
+    line-height: 200%;
+}
+.documentation-button:visited {
+    color: #af1626;
+    background: white;
+    border-color: #af1626;
+}
+
+.documentation-button:hover {
+    color: white;
+    background: #000000;
+    border-color: white;
+}
+.documentation-button:active {
     color: white;
     background: #777;
     border-color: white;
