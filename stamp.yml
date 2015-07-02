@@ -1,0 +1,3 @@
+filename:    'index.html'
+regex:       '|<p>v(?P<version>[\d\.]+)</p>|'
+replacement: '<p>v{{ version }}</p>'
