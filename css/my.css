@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arvo', serif;
+    line-height: 200%;
+    font-size: large;
+}
+
+/* obraz ma wysokość: 150px */
+/* navbar ma wysokość: 200px */
+a.navbar-brand {
+    height: 150px;  /* == wysokość obrazu */
+    padding: 25px;  /* == (wysokość navbara - wysokośc obrazu)/2 */
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.navbar {
+    background-image: none;
+}
+
+.stripe {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.stripeInversed {
+    background: #af1626;
+    color: white;
+}
+
+.stripeWitMargin {
+    margin-top: 100px;
+}
+
+.stripeDownload {
+    margin-top: 200px;
+    padding-top: 400px;
+}
+
+.stripeNormal {
+    background: #fff;
+}
+
+.footer {
+    height: 400px;
+    background: #af1626;
+    color: white;
+    padding-top: 100px;
+}
+.footer a {
+    color: white;
+}
+.footer a:hover {
+    color: black;
+}
+
+.download-button {
+    color: white;
+    background: #af1626;
+    border-color: white;
+    font-size: 200%;
+    padding: 10px 30px;
+    line-height: 200%;
+}
+.download-button:visited {
+    color: white;
+    background: #af1626;
+    border-color: white;
+}
+
+.download-button:hover {
+    color: white;
+    background: #000000;
+    border-color: white;
+}
+.download-button:active {
+    color: white;
+    background: #777;
+    border-color: white;
+}
+.footer-col-1 {
+    border-right: 1px solid white;
+}
+.footer-col-3 {
+    border-left: 1px solid white;
+}
+
+.filename {
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    font-size: medium;
+}
+#examples h2 {
+    margin-top: 100px;
+}
+
+.largeIcon {
+    font-size: 200%;
+    padding-bottom: 50px;
+}
+
+pre {
+    position: relative;
+}
+pre .filename {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border: 1px solid rgb(204,204,204);
+    padding: 8px 10px 5px 10px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
